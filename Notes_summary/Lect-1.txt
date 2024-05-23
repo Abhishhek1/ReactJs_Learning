@@ -1,0 +1,20 @@
+React is used to make easily heavy ui based web pages.
+It make more easy to make a website which has a complex UI.
+State => Js  &  UI => DOM (React made interaction between state and UI).
+React is library not a framework.
+
+
+Topics to learn in React JS:
+=> Core of react (State or Ui manipulation)
+=> Component Reusability(props)
+=> How to Propogate Changes(hooks)
+
+Additional Topics to react
+=> Router (React Dont Have router)
+=> State management -> Redux, Redux toolkit, context API 
+=> Class Based Component -> Leagacy Code (Very old topic)
+=> BAAS (Back-end as service) Apps -> can make social media or e-commerce app directly
+
+After react :
+=> Not a complete Solution -> no seo, browser rendering
+=> Learn next js 

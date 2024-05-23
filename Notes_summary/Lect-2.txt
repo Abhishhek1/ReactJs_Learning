@@ -1,0 +1,44 @@
+First we have seen some documentation by going react.dev official website.
+React is library and it has 2 attachment: react-dom and react-native.
+react-dom is used for website and react-native is used for  mobile apps.
+When we have installed node with that npm has also come(npm => node package manager).
+The most basic way to create a react app is to write: npx create-react-app file_name
+Here npx is node package executer create-react-app is utility.
+But the problem is that it take to much time because it is to heavy.
+
+Now there are various bundles like vite that is lighter than react app
+so rather than using heavy react app we will be using vite. 
+delete unnecessary files: such as assest.
+
+also install npm i : it is necessary
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+code in Api.jsx:
+function App() {
+
+  return (
+   <h1>React learning</h1>
+  )
+}
+export default App
+
+now this will run on the screen through main.jsx
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+code in main.jsx:
+import React from 'react' // This will import react
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx' // this will add App.jsx file
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode> // this has a benefit but you can remove that if you want
+    <App /> // This XML code that will include the App file output
+  </React.StrictMode>,
+)
+
+Now in main.jsx can only handle only one tag in that you can mention multiple tags
+
+=> <></> this is used in that  we can mention mutliple tag
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 

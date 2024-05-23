@@ -1,0 +1,22 @@
+If we check index.html file we can see that there is only one div having id root
+where as same in main.jsx file we can see that we are targeting the root id and in that we are making a virtual Dom and 
+rendering it.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+code:
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ ReactDOM.createRoot is a method from the ReactDOM library that creates
+ a root DOM node where the React application will be rendered. In 
+ this case, it's creating a root node inside the DOM element with  
+ the ID root
+
+Render method is called on the root node created by createRoot.
+ The render method takes a React element (or elements) and renders 
+ it to the DOM.
+
+ 
